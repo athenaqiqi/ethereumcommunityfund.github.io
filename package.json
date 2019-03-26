@@ -1,0 +1,30 @@
+{
+  "name": "ethereum-community-fund-website",
+  "version": "1.0.0",
+  "description": "A website for the Ethereum Community Fund",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthereumCommunityFund/website.git"
+  },
+  "author": "Abhishek Warokar <abhiwarokar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EthereumCommunityFund/website/issues"
+  },
+  "homepage": "https://github.com/EthereumCommunityFund/website#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "csso": "^3.5.1",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-uglify": "^3.0.1"
+  }
+}
